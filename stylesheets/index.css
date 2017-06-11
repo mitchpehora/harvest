@@ -1,0 +1,49 @@
+body {
+
+  background-repeat: no-repeat;
+  background-size: 140% auto;
+}
+
+.logo{
+  width: 500px;
+  height: 94px;
+
+
+
+
+    position: absolute;
+    top: -300px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("http://i.imgur.com/g11WeFd.png?1");
+    background-repeat: no-repeat;
+
+
+
+    margin: auto;
+}
+
+a{
+
+font-size: 20px;
+text-decoration: none;
+font-family: 'Oswald', sans-serif;
+color: black;
+}
+
+footer {
+    background-color: rgba(235, 167, 49, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    overflow:hidden;
+
+}
+
+
+table {
+    margin: 0 auto; /* or margin: 0 auto 0 auto */
+  }

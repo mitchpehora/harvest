@@ -1,0 +1,76 @@
+body {
+
+  background-repeat: no-repeat;
+  background-size: 140% auto;
+}
+
+.logo{
+  width: 1000px;
+    height: 188px;
+
+
+    position: absolute;
+    top: -300px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('http://i.imgur.com/g11WeFd.png');
+
+
+
+    margin: auto;
+}
+
+a{
+
+font-size: 20px;
+text-decoration: none;
+font-family: 'Oswald', sans-serif;
+color: black;
+}
+.alink {
+  font-size: 20px;
+  text-decoration: underline;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+p {
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.contactmessage{
+
+  width: 450px;
+      height: 100px;
+
+
+      position: absolute;
+      top:0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+
+      margin: auto;
+
+      text-align: center;
+
+}
+footer {
+    background-color: rgba(235, 167, 49, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    overflow:hidden;
+
+}
+
+
+table {
+    margin: 0 auto; /* or margin: 0 auto 0 auto */
+  }
