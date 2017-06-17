@@ -1,14 +1,16 @@
 .signUp
 {
-  height: 50px;
-  width: 200px;
+  height: 75px;
+  width: 300px;
   border-radius: 5px;
   background-color: #FBB80D;
-  text-align: center;
   color: #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+
   font-family: 'Oswald', sans-serif;
   position: absolute;
-  top: 50;
+  top: 10;
   bottom: 0;
   left: 0;
   right: 0;
@@ -22,8 +24,8 @@ h1 {
 }
 .contactUs
 {
-  height: 50px;
-  width: 300px;
+  height: 75px;
+  width:500px;
   border-radius: 5px;
   background-color: #7D9540;
   text-align: center;
