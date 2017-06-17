@@ -48,8 +48,16 @@ function DetectIphoneOrIpod()
     else
        return false;
 }
+function DetectAndroid()
+{
+  if(uagent.indexOf("android") > -1)
+    return true;
+  else
+    return false;
+}
 
-if (DetectIphoneOrIpod() ==true )
+
+if (DetectIphoneOrIpod() ==true || DetectAndroid())
 {
   window.location.replace("https://mitchpehora.github.io/harvest/mobile.html");
 }
