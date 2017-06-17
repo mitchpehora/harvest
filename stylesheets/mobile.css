@@ -1,0 +1,65 @@
+.signUp
+{
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #FBB80D;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  top: 50;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+
+  margin: auto;
+
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+.contactUs
+{
+  height: 50px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: #7D9540;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  top: 200;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+
+  margin: auto;
+
+}
+.logo{
+  width: 500px;
+  height: 94px;
+
+
+
+
+    position: absolute;
+    top: -200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("https://github.com/mitchpehora/harvest/blob/master/images/finalharvestlogogreen.png?raw=true1");
+    background-repeat: no-repeat;
+
+
+
+    margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
