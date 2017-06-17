@@ -42,7 +42,7 @@ function DetectIphoneOrIpod()
     if (DetectIphone())
        return true;
     /*   window.location.replace("file:///Users/mitchmac/Documents/github/harvest/mobiletest.html"); */
-    else if (DetectIpod())
+    if (DetectIpod())
        return true;
       /* window.location.replace("file:///Users/mitchmac/Documents/github/harvest/mobiletest.html");*/
     else
