@@ -10,7 +10,7 @@
 
   font-family: 'Oswald', sans-serif;
   position: absolute;
-  top: 200;
+  top: -300;
   bottom: 0;
   left: 0;
   right: 0;
@@ -21,6 +21,7 @@
 }
 h1 {
   font-family: 'Oswald', sans-serif;
+
 }
 .contactUs
 {
@@ -32,7 +33,7 @@ h1 {
   color: #FFFFFF;
   font-family: 'Oswald', sans-serif;
   position: absolute;
-  top: 450;
+  top: -100;
   bottom: 0;
   left: 0;
   right: 0;
@@ -41,27 +42,19 @@ h1 {
   margin: auto;
 
 }
-.logo{
-  width: 500px;
-  height: 94px;
 
-
-
-
-    position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-image: url("https://github.com/mitchpehora/harvest/blob/master/images/finalharvestlogogreen.png?raw=true1");
-    background-repeat: no-repeat;
-
-
-
-    margin: auto;
-}
 
 a {
   text-decoration: none;
   color: white;
+}
+
+
+.logo
+{
+  position: absolute;
+
+  bottom: 10;
+  left: 10;
+
 }
