@@ -48,8 +48,8 @@ h1 {
 
 
 
-    position: absolute;
-    top: -200px;
+    position: relative;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
