@@ -23,7 +23,21 @@ body {
 
     margin: auto;
 }
+.slogan{
+  position: absolute;
+  top: 250px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
 
+}
+
+
+h2{
+font-family: 'Average Sans', sans-serif;
+}
 a{
 
 font-size: 20px;
