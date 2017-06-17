@@ -51,5 +51,5 @@ function DetectIphoneOrIpod()
 
 if (DetectIphoneOrIpod() ==true )
 {
-  window.location.replace("file:///Users/mitchmac/Documents/github/harvest/mobiletest.html");
+  window.location.replace("https://mitchpehora.github.io/harvest/mobiletest.html");
 }
