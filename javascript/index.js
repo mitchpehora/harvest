@@ -72,8 +72,24 @@ function BB10()
     return false;
 }
 
+function BB07()
+{
+  if(uagent.indexOf("BB07") > -1)
+    return true;
+  else
+    return false;
+}
 
-if (DetectIphoneOrIpod() || DetectAndroid() ||DetectBlackberry() || BB10())
+function mobile()
+{
+  if(uagent.indexOf("mobile") > -1)
+    return true;
+  else
+    return false;
+}
+
+
+if (DetectIphoneOrIpod() || DetectAndroid() ||DetectBlackberry() || BB10()||mobile()|| BB07())
 {
   window.location.replace("https://mitchpehora.github.io/harvest/mobile.html");
 }
