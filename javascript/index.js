@@ -58,7 +58,7 @@ function DetectAndroid()
 
 function DetectBlackberry()
 {
-  if(uagent.indexOf("blackberry") > -1)
+  if(uagent.indexOf("BlackBerry") > -1)
     return true;
   else
     return false;
