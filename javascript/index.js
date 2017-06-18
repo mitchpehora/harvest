@@ -64,8 +64,16 @@ function DetectBlackberry()
     return false;
 }
 
+function BB10()
+{
+  if(uagent.indexOf("BB10") > -1)
+    return true;
+  else
+    return false;
+}
 
-if (DetectIphoneOrIpod() || DetectAndroid() ||DetectBlackberry())
+
+if (DetectIphoneOrIpod() || DetectAndroid() ||DetectBlackberry() || BB10())
 {
   window.location.replace("https://mitchpehora.github.io/harvest/mobile.html");
 }
