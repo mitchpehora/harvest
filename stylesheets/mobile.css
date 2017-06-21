@@ -8,7 +8,7 @@
   text-align: center;
   vertical-align: middle;
 
-  font-family: 'Oswald', sans-serif;
+
   position: absolute;
   top: -300;
   bottom: 0;
@@ -20,7 +20,7 @@
 
 }
 h1 {
-  font-family: 'Oswald', sans-serif;
+
 
 }
 .contactUs
@@ -31,7 +31,7 @@ h1 {
   background-color: #7D9540;
   text-align: center;
   color: #FFFFFF;
-  font-family: 'Oswald', sans-serif;
+  
   position: absolute;
   top: -100;
   bottom: 0;
